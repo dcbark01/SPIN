@@ -6,7 +6,7 @@ import numpy as np
 import scipy.misc
 import cv2
 
-import constants
+import spin.constants
 
 def get_transform(center, scale, res, rot=0):
     """Generate transformation matrix."""

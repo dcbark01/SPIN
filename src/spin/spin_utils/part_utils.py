@@ -1,9 +1,9 @@
 import torch
 import numpy as np
 import neural_renderer as nr
-import config
 
-from models import SMPL
+import spin.config
+from spin.models import SMPL
 
 class PartRenderer():
     """Renderer used to render segmentation masks and part segmentations.
